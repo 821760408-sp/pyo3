@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 
  * `module` argument to `pyclass` macro. [#499](https://github.com/PyO3/pyo3/pull/499)
+ * Use existing fields and methods before calling custom __getattr__.
 
 
 ## [0.7.0] - 2018-05-26
